@@ -1,0 +1,13 @@
+daml 1.2
+module DA.Tests.Facts where
+
+data OrderTerms = OrderTerms
+  with
+    operation : Text
+    securityId: Int
+    orderId   : Text
+    qty       : Int
+    price     : Decimal
+    exchange  : Party
+    publisDate: Time
+  deriving (Eq, Show)

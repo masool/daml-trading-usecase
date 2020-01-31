@@ -1,0 +1,6 @@
+daml 1.2
+module DA.Tectoro.Main where
+
+import DA.Tectoro.Facts()
+import DA.Tectoro.C2BTrade()
+import DA.Tectoro.B2EAgree()

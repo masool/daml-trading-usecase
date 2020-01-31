@@ -1,0 +1,506 @@
+19:06:40.724 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+19:06:40.865 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+19:06:41.065 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+19:06:41.074 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-ba6e855c-6360-43d4-928a-f214d5c91d03, port = 6865, dar file = DamlPackageContainer(List(target/daml/trade.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+10:51:46.358 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+10:51:46.673 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+10:51:46.962 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+10:51:46.975 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-2a99b602-4e5c-4504-a4df-6fda785a020b, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+10:54:29.554 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+10:54:29.555 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+10:54:39.654 [Thread-3] WARN  c.d.l.s.apiserver.LedgerApiServer - Server did not terminate gracefully in one second. Clients probably did not disconnect. Proceeding with forced termination. 
+10:55:38.891 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+10:55:39.035 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+10:55:39.248 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+10:55:39.256 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-a8a0bf9e-c4e6-4cdd-80db-bde4ed7c3f5d, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+10:57:26.471 [sandbox-akka.actor.default-dispatcher-12] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command c5dd37050091c497 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(e5fefea4c9cd7ea19aa1895afb57ea681dd18970e201547444fb3dba2a177c3a,DA.Tectoro.C2BTrade:TradeMaster)) requires authorizers SHARKHAN, but only SHAREKHAN were given. Details: N/A.
+11:20:08.594 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+11:20:08.718 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+11:20:57.075 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+11:20:57.371 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+11:20:57.656 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+11:20:57.670 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-cdd2406f-4120-4418-9fd3-6c1d769a6e33, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+12:10:43.719 [sandbox-akka.actor.default-dispatcher-14] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+12:10:44.292 [sandbox-akka.actor.default-dispatcher-14] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+12:10:44.657 [sandbox-akka.actor.default-dispatcher-14] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+12:10:44.665 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-7f821a7c-430d-4240-8bf0-f6029d13484b, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+12:16:12.674 [sandbox-akka.actor.default-dispatcher-21] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 2eaf61b41f44c0fc has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(96eda3806f11f3738304756ca70d6ab14bafde6baf825e82c7c174ca149e6919,DA.Tectoro.C2BTrade:TradeIssueAgreement)) requires controllers: IRFAN, but only SHAREKHAN were given. Details: N/A.
+14:39:12.031 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+14:39:12.117 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+14:42:04.630 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+14:42:04.951 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+14:42:05.267 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+14:42:05.275 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-cc9a921e-10b5-4ab6-b6ea-375f981c2b74, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+16:16:06.296 [sandbox-akka.actor.default-dispatcher-68] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 5f0ad9520eed7c78 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(67b8c16038cc2469ed2852e6e38fdb6f8622fc04097cd26b94bba831b560cbcc,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+19:17:15.219 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+19:17:15.324 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+19:17:39.031 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+19:17:39.553 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+19:17:39.875 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+19:17:39.884 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-dd6719c2-1dcc-40a3-bdad-2037a32fa55e, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+19:19:34.385 [sandbox-akka.actor.default-dispatcher-12] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command f954449c0e90a3a6 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(b61563c520b91ed12c653812d45091162aba079716eccac46f721e56e691b14e,DA.Tectoro.C2BTrade:TradeIssueProposal)) requires controllers: IRFAN, but only SHAREKHAN were given. Details: N/A.
+19:33:24.498 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+19:33:24.500 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+19:33:33.950 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+19:33:34.089 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+19:33:34.292 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+19:33:34.302 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-b10c08b6-3dea-485d-92cb-8ef76e4e3dfb, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+19:36:12.329 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+19:36:12.329 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+19:36:21.173 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+19:36:21.337 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+19:36:21.610 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+19:36:21.625 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-9e1fbec5-afde-4a89-a15e-ced59d590b00, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+19:44:37.025 [sandbox-akka.actor.default-dispatcher-22] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command cb68da841003e7ec has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(67b8c16038cc2469ed2852e6e38fdb6f8622fc04097cd26b94bba831b560cbcc,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+20:08:42.943 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+20:08:42.945 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+13:07:44.737 [sandbox-akka.actor.default-dispatcher-16] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+13:07:45.402 [sandbox-akka.actor.default-dispatcher-16] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+13:07:45.820 [sandbox-akka.actor.default-dispatcher-16] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+13:07:45.829 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-05a8055a-d105-49b8-abd8-dc8328858c1e, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+13:14:55.330 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+13:14:55.338 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+14:46:12.754 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+14:46:12.873 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+14:46:13.064 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+14:46:13.071 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-cebe05d9-80a4-4450-a0be-53210afee2e4, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+14:54:12.039 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+14:54:12.041 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+15:58:55.388 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+15:58:55.515 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+15:58:55.702 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+15:58:55.710 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-c8d61bfb-da8e-42d1-b344-576b9db1eb33, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+17:22:55.802 [sandbox-akka.actor.default-dispatcher-25] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 97859dffab20cbf0 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(67b8c16038cc2469ed2852e6e38fdb6f8622fc04097cd26b94bba831b560cbcc,DA.Tectoro.C2BTrade:TradeIssueProposal)) requires controllers: IRFAN, but only SHAREKHAN were given. Details: N/A.
+20:52:36.216 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+20:52:36.219 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+21:15:21.438 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+21:15:21.577 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+21:15:21.779 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+21:15:21.788 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-891d42f9-d3ca-4c48-a995-c4b749e4a491, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+23:50:22.327 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+23:50:22.536 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+10:44:22.619 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+10:44:22.759 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+10:44:22.964 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+10:44:22.972 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-7c523a75-ba30-4455-bc1a-a63c79598459, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+11:19:51.518 [sandbox-akka.actor.default-dispatcher-15] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+11:19:52.088 [sandbox-akka.actor.default-dispatcher-15] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+11:19:52.401 [sandbox-akka.actor.default-dispatcher-15] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+11:19:52.410 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-b4200ba6-cf16-4285-bd33-ce7994a7a4b8, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+11:20:41.818 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+11:20:42.011 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+11:20:53.492 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+11:20:53.499 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+11:21:07.293 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+11:21:07.436 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+11:21:07.654 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+11:21:07.665 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-941df0d3-0bc3-47e4-978c-d50da016a7ef, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+11:22:55.459 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+11:22:55.461 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+11:26:10.600 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+11:26:10.740 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+11:26:10.943 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+11:26:10.953 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-90bafd67-3754-4418-81b1-66867f26e596, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+11:32:21.772 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+11:32:21.777 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+15:16:52.346 [sandbox-akka.actor.default-dispatcher-21] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+15:16:52.974 [sandbox-akka.actor.default-dispatcher-21] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+15:16:53.262 [sandbox-akka.actor.default-dispatcher-21] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+15:16:53.271 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-3550ed0a-6012-46ca-9800-eb520be68313, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+15:19:55.481 [sandbox-akka.actor.default-dispatcher-23] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command b04c65a0e4b76434 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(e56ab2a0bb836eaef821638fe33bc191086509e205e849c1d6525608210c975d,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(BSE))). Details: N/A.
+15:39:44.518 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+15:39:44.534 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+15:39:55.947 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+15:39:56.085 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+15:39:56.335 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+15:39:56.345 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-fe57d496-7677-4c8c-aa68-c54a01a72088, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+15:53:10.912 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+15:53:10.913 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+15:53:19.530 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+15:53:19.689 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+15:53:19.888 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+15:53:19.896 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-9613cf87-972f-4ab8-84a3-a13aa0e1a277, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+15:59:23.288 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+15:59:23.289 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+15:59:43.686 [sandbox-akka.actor.default-dispatcher-16] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+15:59:43.880 [sandbox-akka.actor.default-dispatcher-16] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+15:59:44.136 [sandbox-akka.actor.default-dispatcher-16] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+15:59:44.145 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-0e0c7365-1108-4579-83c1-1b273adb3b47, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+16:02:54.420 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+16:02:54.431 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+16:03:03.595 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+16:03:03.736 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+16:03:03.950 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+16:03:03.959 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-85714183-d6b1-4c69-864d-9e63dd302d47, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+16:04:52.123 [sandbox-akka.actor.default-dispatcher-12] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command d3a4f7136bb3767e has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(bd251b9098ae827de534a19e94470857ad0775640fb9460a8a7618ec43d2efd8,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+16:05:01.667 [sandbox-akka.actor.default-dispatcher-12] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 898d7a255a6c88d4 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(bd251b9098ae827de534a19e94470857ad0775640fb9460a8a7618ec43d2efd8,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+16:07:27.443 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+16:07:27.444 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+21:38:07.047 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+21:38:07.189 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+21:38:07.399 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+21:38:07.407 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-e71551b2-876e-470a-92b1-183bb5bd9af9, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+21:40:36.698 [sandbox-akka.actor.default-dispatcher-3] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 89c4f0f0b74908cb has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(9d838f1ea86e442330a44e3ce51e74e8cc7b6c8d9c9d13e5f48ca3161158eae5,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+21:44:12.807 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+21:44:12.809 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+21:46:22.982 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+21:46:23.116 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+21:46:23.317 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+21:46:23.328 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-68ca6585-702c-412a-a94e-60e9e76f05e4, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+21:51:47.539 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+21:51:47.547 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+21:56:53.832 [sandbox-akka.actor.default-dispatcher-13] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+21:56:54.011 [sandbox-akka.actor.default-dispatcher-13] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+21:56:54.260 [sandbox-akka.actor.default-dispatcher-13] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+21:56:54.268 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-dbd0bcad-b03f-4c4d-b6f0-2b001ae02941, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+22:25:44.225 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+22:25:44.247 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+10:30:19.138 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+10:30:19.759 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+10:30:20.179 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+10:30:20.196 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-5cea4662-030f-462a-bd5b-a625db980b1a, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+10:34:59.750 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+10:34:59.752 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+17:33:33.811 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+17:33:33.959 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+17:33:34.134 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+17:33:34.141 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-f1f82545-e90d-4f06-806c-52d96c5fa1a6, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+18:27:43.477 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+18:27:43.479 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+18:27:53.699 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+18:27:53.822 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+18:27:54.005 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+18:27:54.013 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-0e5da1d8-9eab-4e5c-a994-9a7900f89a50, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+18:47:54.463 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+18:47:54.465 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+18:48:07.692 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+18:48:07.816 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+18:48:08.007 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+18:48:08.014 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-5ae9f084-8318-4e5e-b8af-8f311d23afd8, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+18:52:23.702 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+18:52:23.705 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+18:52:42.183 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+18:52:42.328 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+18:52:42.553 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+18:52:42.563 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-d3fecbff-e7ca-4696-a979-d694775bbbd7, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+19:27:06.368 [sandbox-akka.actor.default-dispatcher-12] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command d2ba880968b7e74d has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(e2578b5adc11fecf2c2bfec49ab3ba98af9dd607fbcdb71ab5953765c2e18d32,DA.Tectoro.C2BTrade:TradeProposal)) requires authorizers SHAREKHAN, but only IRFAN were given. Details: N/A.
+21:10:22.572 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+21:10:22.758 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+21:13:33.460 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+21:13:33.593 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+21:13:33.777 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+21:13:33.787 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-480696d0-daa6-4a9a-8e7a-f07266f5344f, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+21:24:10.090 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+21:24:10.094 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+10:57:07.343 [sandbox-akka.actor.default-dispatcher-11] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+10:57:07.471 [sandbox-akka.actor.default-dispatcher-11] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+10:57:07.674 [sandbox-akka.actor.default-dispatcher-11] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+10:57:07.681 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-bd792bdb-080a-4fc1-af6d-7fd6c57ca033, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+13:14:01.293 [sandbox-akka.actor.default-dispatcher-50] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(e2578b5adc11fecf2c2bfec49ab3ba98af9dd607fbcdb71ab5953765c2e18d32,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+16:21:59.612 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+16:21:59.740 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+16:21:59.928 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+16:21:59.938 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-103f4465-bb5c-4dd1-9ab7-66fe79f4ea37, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+21:11:21.054 [sandbox-akka.actor.default-dispatcher-21] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 31bd32e5-8dc5-4d6f-9666-7a0031a43bd2 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+21:15:11.372 [sandbox-akka.actor.default-dispatcher-74] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+21:15:27.193 [sandbox-akka.actor.default-dispatcher-75] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+21:18:56.943 [sandbox-akka.actor.default-dispatcher-46] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+21:19:09.852 [sandbox-akka.actor.default-dispatcher-94] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:17:01.902 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+11:17:01.905 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+11:17:09.655 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+11:17:09.786 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+11:17:09.990 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+11:17:09.999 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-c5238455-6152-4a19-ba11-9e787a82207d, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+11:18:36.630 [sandbox-akka.actor.default-dispatcher-9] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 11741c3849914e8 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeMaster)) requires authorizers ZERODHA, but only SHAREKHAN were given. Details: N/A.
+11:26:47.928 [sandbox-akka.actor.default-dispatcher-23] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:28:07.790 [sandbox-akka.actor.default-dispatcher-19] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:28:32.799 [sandbox-akka.actor.default-dispatcher-40] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:36:17.677 [sandbox-akka.actor.default-dispatcher-27] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:55:49.501 [sandbox-akka.actor.default-dispatcher-79] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:56:47.942 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+11:56:47.943 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+11:56:58.092 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+11:56:58.229 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+11:56:58.428 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+11:56:58.435 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-ca2ebb22-e7a1-4316-9e07-3327e6b1dcef, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+12:08:02.212 [sandbox-akka.actor.default-dispatcher-25] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(BSE))))] 
+12:17:41.387 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+12:17:41.398 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+12:18:00.607 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+12:18:00.732 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+12:18:00.942 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+12:18:00.950 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-ca7a988e-a722-4a77-963f-87864d0e0b42, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+12:21:19.649 [sandbox-akka.actor.default-dispatcher-4] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(BSE))))] 
+12:21:27.602 [sandbox-akka.actor.default-dispatcher-22] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(BSE))))] 
+12:21:54.313 [sandbox-akka.actor.default-dispatcher-4] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(BSE))))] 
+12:22:11.510 [sandbox-akka.actor.default-dispatcher-27] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(BSE))))] 
+12:33:09.277 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+12:33:09.326 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+12:38:44.117 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+12:38:44.244 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+12:38:44.433 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+12:38:44.440 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-06f5f055-c343-44e3-8da3-d0851e425945, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+12:40:17.986 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+12:40:17.987 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+12:42:05.434 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+12:42:05.562 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+12:42:05.754 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+12:42:05.761 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-fe4d35d8-996e-4624-83bd-2517c5ded7a9, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+12:44:54.600 [sandbox-akka.actor.default-dispatcher-18] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 84184653d39050fd has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(ba12a9e0241d9f516a4d303a0acd9b85ae8f165667f4d04d87887b67689db579,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+12:47:48.384 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+12:47:48.385 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+12:48:42.845 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+12:48:43.001 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+12:48:43.203 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+12:48:43.214 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-fb7f1ae8-b86f-42ed-bb70-bd434e51a176, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+13:24:22.299 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+13:24:22.371 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+13:24:32.809 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+13:24:33.009 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+13:24:33.346 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+13:24:33.363 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-a39fa8f8-9f60-4c23-8f9a-c288947b2a8f, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+13:29:37.267 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+13:29:37.276 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+13:29:48.799 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+13:29:49.019 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+13:29:49.342 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+13:29:49.355 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-61f89546-69a7-416d-9442-31dcabb5b637, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+13:30:32.584 [sandbox-akka.actor.default-dispatcher-2] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command e6debed9eeb336e2 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(f59fe0f8bd2da5da5c0ece833133ea55dface0220d491e64148d34b4461ed87b,DA.Tectoro.C2BTrade:TradeMaster)) requires authorizers sharekhan, but only SHAREKHAN were given. Details: N/A.
+13:32:11.511 [sandbox-akka.actor.default-dispatcher-10] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command db2809f58f6a22d0 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(f59fe0f8bd2da5da5c0ece833133ea55dface0220d491e64148d34b4461ed87b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+13:33:50.605 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+13:33:50.607 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+13:34:01.992 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+13:34:02.208 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+13:34:02.524 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+13:34:02.536 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-7f4ec14a-c125-46db-8016-8a7dfef8efef, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+13:40:39.347 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+13:40:39.349 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+13:47:00.540 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+13:47:00.768 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+13:47:01.077 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+13:47:01.092 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-b4cfd196-5ea8-4bc9-a0cb-9334e70035e8, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+13:52:32.634 [sandbox-akka.actor.default-dispatcher-16] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 6a3a787e-0001-414b-9925-fe6e1824e22d has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(0362f85c6063e7962e75676ae2dc06251587d9f29e7edd6442f3efa67a0bd9fb,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+13:52:34.192 [sandbox-akka.actor.default-dispatcher-8] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 45f13006-3d82-42fe-bac7-51eee39c3ded has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(0362f85c6063e7962e75676ae2dc06251587d9f29e7edd6442f3efa67a0bd9fb,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+13:52:34.509 [sandbox-akka.actor.default-dispatcher-16] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 0c958161-3c1b-4085-95c0-fe93fd70f474 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(0362f85c6063e7962e75676ae2dc06251587d9f29e7edd6442f3efa67a0bd9fb,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+13:52:34.669 [sandbox-akka.actor.default-dispatcher-25] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command a526e149-5295-4b26-86d3-229f50dfc9e9 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(0362f85c6063e7962e75676ae2dc06251587d9f29e7edd6442f3efa67a0bd9fb,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+13:52:34.858 [sandbox-akka.actor.default-dispatcher-21] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 5d071d37-3293-4306-8eaf-45416cf949da has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(0362f85c6063e7962e75676ae2dc06251587d9f29e7edd6442f3efa67a0bd9fb,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+13:56:43.841 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+13:56:43.843 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+13:59:07.864 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+13:59:08.410 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+13:59:09.250 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+13:59:09.275 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-7dde7462-6fa2-4ef5-8cbd-6129d09c24f8, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+14:06:01.636 [sandbox-akka.actor.default-dispatcher-16] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command b51c97d4-4e5f-48e7-a4cb-e8544e4a9012 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+14:11:57.637 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+14:11:57.639 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+14:12:09.491 [sandbox-akka.actor.default-dispatcher-16] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+14:12:09.707 [sandbox-akka.actor.default-dispatcher-16] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+14:12:10.034 [sandbox-akka.actor.default-dispatcher-16] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+14:12:10.047 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-666e9d5e-a82b-4a75-9b7e-09909c061243, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+14:16:20.839 [sandbox-akka.actor.default-dispatcher-11] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 9f1e22ee-31af-4160-b363-05e80817220a has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+14:16:22.137 [sandbox-akka.actor.default-dispatcher-11] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 2ae7eeda-f9f5-4398-8831-cd54b34753c9 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+14:16:22.749 [sandbox-akka.actor.default-dispatcher-10] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 1e98008a-5d52-4309-81c3-05f89e234e39 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+14:16:22.910 [sandbox-akka.actor.default-dispatcher-16] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command e59bb5c7-0235-4e64-af04-1afd078bad45 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+14:16:23.117 [sandbox-akka.actor.default-dispatcher-16] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 740e8137-9bf9-4ca3-843e-ec456fc51120 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+14:16:23.242 [sandbox-akka.actor.default-dispatcher-16] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command b8ab2bfc-33a2-47f1-a2ff-9a2115dc4f34 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+14:16:23.388 [sandbox-akka.actor.default-dispatcher-7] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command ff560e28-a2c9-43c4-aac5-cd7922b0f230 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+14:16:23.548 [sandbox-akka.actor.default-dispatcher-7] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 0bfea6b1-6cd5-47b5-8fa4-2ad7aec4261e has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+14:16:23.689 [sandbox-akka.actor.default-dispatcher-12] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command ed34b934-ad76-44cf-b242-5c3ef2298663 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(87bff80ca3c0fbc908c92236634e7f346b7a6c34a87367f894390e999305920b,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+15:41:38.923 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+15:41:38.932 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+15:54:09.803 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+15:54:10.000 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+15:54:10.315 [sandbox-akka.actor.default-dispatcher-4] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+15:54:10.328 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-a5627ac4-1326-43ad-9a67-f461888be399, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+15:56:33.226 [sandbox-akka.actor.default-dispatcher-19] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 5072855e6be6bbb7 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(ba0b9cf589df35a3511c3153b11879d21c16c6991f20c8950c5c1fb519d6079d,DA.Tectoro.C2BTrade:Trade)) requires controllers: NSE, but only SHAREKHAN were given. Details: N/A.
+15:57:56.267 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+15:57:56.270 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+16:03:39.428 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+16:03:39.632 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+16:03:39.951 [sandbox-akka.actor.default-dispatcher-6] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+16:03:39.967 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-baa35e15-39e7-4dfd-b93b-e5d0bb71bd2f, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+16:57:11.695 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+16:57:11.696 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+16:57:24.134 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+16:57:24.321 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+16:57:24.601 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+16:57:24.612 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-5034bdfe-8a2b-4419-93d0-bbfd317e6d4c, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+17:08:05.655 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+17:08:05.658 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+17:10:01.381 [sandbox-akka.actor.default-dispatcher-13] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+17:10:01.575 [sandbox-akka.actor.default-dispatcher-13] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+17:10:01.934 [sandbox-akka.actor.default-dispatcher-13] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+17:10:01.954 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-8e5a84e6-b4cc-4185-b99d-efea85a88e00, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+17:31:40.915 [sandbox-akka.actor.default-dispatcher-22] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [InactiveDependencyError(AbsoluteContractId(#19:1),Exercise)] 
+17:35:50.228 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+17:35:50.229 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+17:36:11.882 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+17:36:12.070 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+17:36:12.378 [sandbox-akka.actor.default-dispatcher-12] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+17:36:12.388 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-00c2ade5-b7e0-4a90-8fb7-c9ccdccf7eae, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+17:36:48.839 [sandbox-akka.actor.default-dispatcher-12] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 32e45919a7c12592 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.C2BTrade:TradeMaster)) requires authorizers zerodha, but only ZERODHA were given. Details: N/A.
+17:38:22.617 [sandbox-akka.actor.default-dispatcher-3] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command c6b888e45da55fc6 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.C2BTrade:TradeMaster)) requires authorizers zerodha, but only ZERODHA were given. Details: N/A.
+17:48:07.654 [sandbox-akka.actor.default-dispatcher-27] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command c8e2357d-fa56-46e8-9edd-9fc9980b8da8 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:48:09.893 [sandbox-akka.actor.default-dispatcher-22] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command f7f88a4d-df3e-4861-bc12-ac21908efc9c has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:48:12.139 [sandbox-akka.actor.default-dispatcher-30] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 82bc295a-f3d2-4065-9619-107a90eee2be has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:48:12.866 [sandbox-akka.actor.default-dispatcher-28] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command dd421b74-49cc-4a19-8c52-1f6b87f46ab8 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:48:14.192 [sandbox-akka.actor.default-dispatcher-4] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 12f9561a-e9d4-4869-894a-53d877d1b084 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:48:20.546 [sandbox-akka.actor.default-dispatcher-25] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command d2930ad7-8f27-41ee-a12a-1c5e77596711 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:49:44.720 [sandbox-akka.actor.default-dispatcher-2] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command dacb5168-e8f3-4698-9ec7-4bd1fccfe79b has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:51:55.582 [sandbox-akka.actor.default-dispatcher-2] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 3908ba4b-2eb8-4913-b355-7d5f05b5b74c has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:52:24.255 [sandbox-akka.actor.default-dispatcher-24] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 30f0e0fb-6fdb-42f6-a582-14ca439877e3 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:54:48.432 [sandbox-akka.actor.default-dispatcher-34] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command c3ba1da4-9106-4489-95d4-e872daf3d0b7 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:56:57.336 [sandbox-akka.actor.default-dispatcher-36] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+17:57:05.129 [sandbox-akka.actor.default-dispatcher-36] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 40b18a5c-4e2d-4bfd-a998-d9c87bda1f4a has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+17:57:31.850 [sandbox-akka.actor.default-dispatcher-42] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+17:57:40.960 [sandbox-akka.actor.default-dispatcher-35] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:02:32.753 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+18:02:32.757 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+18:02:42.393 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+18:02:42.618 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+18:02:42.993 [sandbox-akka.actor.default-dispatcher-5] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+18:02:43.013 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-322eb82a-63cc-4a51-8293-0e204235f93b, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+18:09:19.239 [sandbox-akka.actor.default-dispatcher-11] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:09:32.854 [sandbox-akka.actor.default-dispatcher-11] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:12:16.074 [sandbox-akka.actor.default-dispatcher-13] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:12:50.897 [sandbox-akka.actor.default-dispatcher-25] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:14:06.357 [sandbox-akka.actor.default-dispatcher-15] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:14:17.724 [sandbox-akka.actor.default-dispatcher-8] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:17:30.640 [sandbox-akka.actor.default-dispatcher-14] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:21:03.119 [sandbox-akka.actor.default-dispatcher-39] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:22:56.414 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+18:22:56.421 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+18:23:06.992 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+18:23:07.231 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+18:23:07.553 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+18:23:07.566 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-e977f37d-c3a9-4882-b942-fef05cd2b711, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+18:25:40.935 [sandbox-akka.actor.default-dispatcher-7] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:25:42.372 [sandbox-akka.actor.default-dispatcher-20] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:26:11.355 [sandbox-akka.actor.default-dispatcher-22] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:26:18.526 [sandbox-akka.actor.default-dispatcher-11] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+18:27:05.639 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+18:27:05.641 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+18:27:16.516 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+18:27:16.811 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+18:27:17.298 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+18:27:17.313 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-78f18ac8-01fe-4a68-820e-235f971a8262, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+18:32:32.453 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+18:32:32.495 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+10:57:22.234 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+10:57:22.552 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+10:57:22.879 [sandbox-akka.actor.default-dispatcher-2] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+10:57:22.887 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-da198cdd-444e-4644-8db3-9f704e2076ee, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+10:59:50.475 [sandbox-akka.actor.default-dispatcher-4] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command e5067037-424f-4b3c-9095-0d86fd24ed84 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: dependency error: couldn't find key GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))). Details: N/A.
+11:06:09.807 [sandbox-akka.actor.default-dispatcher-20] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:06:31.330 [sandbox-akka.actor.default-dispatcher-9] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:08:50.283 [sandbox-akka.actor.default-dispatcher-11] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:09:22.184 [sandbox-akka.actor.default-dispatcher-12] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:10:44.052 [sandbox-akka.actor.default-dispatcher-21] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:10:53.709 [sandbox-akka.actor.default-dispatcher-48] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:14:57.758 [sandbox-akka.actor.default-dispatcher-18] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:21:51.802 [sandbox-akka.actor.default-dispatcher-25] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:26:11.057 [sandbox-akka.actor.default-dispatcher-50] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:31:55.202 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+11:31:55.230 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+11:32:37.769 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+11:32:38.045 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+11:32:38.314 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+11:32:38.322 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-9c1103d2-49a2-45f7-a085-01d9666d8a10, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+11:34:14.878 [sandbox-akka.actor.default-dispatcher-22] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:39:51.916 [sandbox-akka.actor.default-dispatcher-6] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(NSE))))] 
+11:41:53.843 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+11:41:53.847 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+11:52:19.322 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+11:52:19.452 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+11:52:19.640 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+11:52:19.648 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-123af699-ce8d-4c96-8b51-02750375dc81, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+11:55:28.105 [sandbox-akka.actor.default-dispatcher-16] WARN  c.d.p.s.s.l.inmemory.InMemoryLedger - Publishing error to ledger: Reason: [DuplicateKey(GlobalKey(Identifier(9108cdfb72297179b95b884eebad8fc733ec7093d6f482bee5b3803b1ed7013a,DA.Tectoro.B2EAgree:BrokerTradeIssueAgreement),VersionedValue(ValueVersion(1),ValueParty(SHAREKHAN))))] 
+12:08:47.184 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+12:08:47.205 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+12:09:47.336 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+12:09:47.455 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+12:09:47.637 [sandbox-akka.actor.default-dispatcher-9] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+12:09:47.646 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-0145ac83-cacd-4e62-897a-f94c98375261, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+12:13:51.518 [sandbox-akka.actor.default-dispatcher-10] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 62be630c-d173-4d79-a5dc-fac79f00c604 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: Couldn't find package cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3. Details: N/A.
+12:14:42.366 [sandbox-akka.actor.default-dispatcher-9] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 48b1622d-0951-44d0-9fc2-41928f31cdb3 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: Couldn't find package cab947e0272e70b3e96d86aeae7d9d56b17d3e673093818f682c526d0b1702d3. Details: N/A.
+12:15:30.786 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+12:15:30.788 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+12:18:04.540 [sandbox-akka.actor.default-dispatcher-11] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+12:18:04.695 [sandbox-akka.actor.default-dispatcher-11] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+12:18:04.913 [sandbox-akka.actor.default-dispatcher-11] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+12:18:04.921 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-0a243152-2ca4-4302-a342-9836248789de, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+14:35:09.056 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+14:35:09.461 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+14:35:09.785 [sandbox-akka.actor.default-dispatcher-7] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+14:35:09.794 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-23f4ff37-2691-4043-8191-4d0299aa9032, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+14:35:47.503 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+14:35:47.505 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+14:35:56.358 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+14:35:56.495 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+14:35:56.698 [sandbox-akka.actor.default-dispatcher-8] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+14:35:56.709 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-434daf28-c3f5-493e-a935-8d0bebeca39b, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+14:36:21.470 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+14:36:21.474 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+14:36:33.875 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+14:36:34.055 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+14:36:34.378 [sandbox-akka.actor.default-dispatcher-10] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+14:36:34.390 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-95fa5f3e-8702-4d69-ad65-80f1ce2e6ba3, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+14:39:57.593 [Thread-3] INFO  c.d.p.s.s.c.ReferenceCommandService - Shutting down Command Service 
+14:39:57.596 [Thread-3] INFO  c.d.p.s.services.command.TrackerMap - Shutting down 0 trackers 
+15:16:39.154 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.server.apiserver.ApiServices$ - DAML LF Engine supports LF versions: 0, 0.dev, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.dev; Transaction versions: 1, 2, 3, 4, 5, 6, 7; Value versions: 1, 2, 3, 4 
+15:16:39.293 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - Starting plainText server 
+15:16:39.505 [sandbox-akka.actor.default-dispatcher-3] INFO  c.d.l.s.apiserver.LedgerApiServer - listening on localhost:6865 
+15:16:39.517 [main] INFO  c.d.platform.sandbox.SandboxServer$ - Initialized sandbox version 100.12.22 with ledger-id = sandbox-0614935f-b86b-4215-9d2f-8a73be388479, port = 6865, dar file = DamlPackageContainer(List(dist/tectoro.dar)), time mode = Static, ledger = in-memory, daml-engine = {} 
+15:19:23.024 [sandbox-akka.actor.default-dispatcher-21] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 58e421139b2ccb8e has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(7f1d1cc5342a54361d5be947329e87b6bf0a8f6b90d001080e36656d681e1c04,DA.Tectoro.C2BTrade:Trade)) requires controllers: NSE, but only SHAREKHAN were given. Details: N/A.
+15:19:34.300 [sandbox-akka.actor.default-dispatcher-21] WARN  c.d.p.s.s.SandboxSubmissionService - Submission of command 465f8bd4c12ca474 has failed. 
+com.digitalasset.platform.server.api.ApiException: INVALID_ARGUMENT: Command interpretation error in LF-DAMLe: The following errors occured: node NodeId(0) (Identifier(7f1d1cc5342a54361d5be947329e87b6bf0a8f6b90d001080e36656d681e1c04,DA.Tectoro.C2BTrade:Trade)) requires controllers: NSE, but only IRFAN were given. Details: N/A.

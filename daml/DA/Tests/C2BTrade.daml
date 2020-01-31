@@ -1,0 +1,106 @@
+daml 1.2
+module DA.Tests.C2BTrade where
+
+import DA.Date()
+import DA.List()
+import DA.Optional()
+import DA.Tests.Facts
+import DA.Tests.B2EAgree
+
+template TradeMaster
+  with
+    broker: Party
+    commissionRate: Decimal
+    typeOfTrade: Text
+  where
+    signatory broker
+
+    controller broker can
+      nonconsuming Invite : ContractId TradeIssueProposal
+        with client: Party
+        do create TradeIssueProposal
+             with tradeAgreement = TradeIssueAgreement with broker; client; commissionRate; typeOfTrade
+
+template TradeIssueProposal
+  with
+    tradeAgreement: TradeIssueAgreement
+  where
+    signatory tradeAgreement.broker
+
+    controller tradeAgreement.client can
+      AcceptTradeProposal
+        : ContractId TradeIssueAgreement
+        do create tradeAgreement
+template TradeIssueAgreement
+  with
+    broker: Party
+    client: Party
+    commissionRate: Decimal
+    typeOfTrade: Text
+  where
+     signatory broker, client
+     controller client can
+       nonconsuming Order : ContractId TradeProposal 
+         with terms: OrderTerms; regulator: Party
+        do create TradeProposal with terms; broker,client; regulator
+
+template TradeProposal
+  with
+    terms: OrderTerms
+    broker: Party
+    client: Party
+    regulator: Party
+    
+  where
+    signatory client, broker
+    observer regulator
+    controller broker can
+      Accept : ContractId Trade
+        with tradeId: Text
+        do
+           create Trade with tradeId; terms; broker; client; regulator
+      Reject : ()
+        do return ()
+
+template Trade
+  with
+    tradeId: Text
+    terms: OrderTerms
+    broker: Party
+    client: Party
+    regulator: Party
+  where
+    signatory broker
+    observer  regulator
+    controller broker can
+           nonconsuming Transfer_orderForExchange : ContractId FinalTrade
+             with agreeCid: ContractId BrokerTradeIssueAgreement
+              do 
+           agree <- fetch agreeCid
+           assert(agree.broker == broker)
+           create FinalTrade with tradeId; terms; broker; regulator; client
+
+template FinalTrade
+   with
+    broker: Party
+    client:Party
+    regulator: Party
+    tradeId: Text
+    terms: OrderTerms
+  where
+    signatory broker
+    observer regulator
+    controller terms.exchange can
+        nonconsuming Execute:ContractId TradeExecuted
+              do
+             create TradeExecuted with broker;regulator;tradeId;terms;client
+template TradeExecuted
+   with
+     broker: Party
+     client: Party
+     regulator: Party
+     tradeId: Text
+     terms: OrderTerms
+    where
+     signatory broker
+     observer regulator,terms.exchange, client

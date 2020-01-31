@@ -1,0 +1,50 @@
+daml 1.2
+module DA.Tests.B2EAgree where
+
+import DA.Date()
+import DA.List()
+
+template BrokerTradeMaster
+  with
+    broker: Party
+    exchange: Party
+  where
+    signatory broker
+    observer exchange
+    controller exchange can
+      nonconsuming ExchangeAccept : ContractId BrokerTradeIssueProposal
+        with tradingLimit: Int; volumeLimit: Int; exchangeFee: Int
+        do create BrokerTradeIssueProposal
+             with brokertradeAgreement = BrokerTradeIssueAgreement with broker;tradingLimit; volumeLimit; exchangeFee; exchange
+
+template BrokerTradeIssueProposal
+  with
+    brokertradeAgreement: BrokerTradeIssueAgreement
+  where
+    signatory brokertradeAgreement.exchange
+
+    controller brokertradeAgreement.broker can
+      AcceptExchangeTradeProposal
+        : ContractId BrokerTradeIssueAgreement
+        do create brokertradeAgreement
+template BrokerTradeIssueAgreement
+  with
+    broker: Party
+    exchange: Party
+    tradingLimit: Int
+    volumeLimit: Int
+    exchangeFee: Int
+  where
+     signatory broker
+     controller broker can
+         
+
+
+example  = scenario do
+  owner <- getParty "IC"
+  broker <- getParty "BR"
+  exchange <- getParty "EX"
+  submit broker do
+    create BrokerTradeIssueAgreement with broker, exchange
+  submit exchange do
+    create BrokerTradeIssueProposal with broker, exchange, tradingLimit = 123; volumeLimit = 123; exchangeFee = 123

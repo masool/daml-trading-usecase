@@ -1,0 +1,44 @@
+daml 1.2
+module DA.Tectoro.B2EAgree where
+
+import DA.Date()
+import DA.List()
+
+template BrokerTradeMaster
+  with
+    broker: Party
+    exchange: Party
+    agreement_date: Date
+  where
+    signatory broker
+    controller exchange can
+          ExchangeAccept : ContractId BrokerTradeIssueProposal
+            with tradingLimit: Int; volumeLimit: Text; exchangeFee: Int
+            do create BrokerTradeIssueProposal
+                 with brokertradeAgreement = BrokerTradeIssueAgreement with broker;tradingLimit; volumeLimit; exchangeFee; exchange; agreement_date
+
+template BrokerTradeIssueProposal
+  with
+    brokertradeAgreement: BrokerTradeIssueAgreement
+  where
+    signatory brokertradeAgreement.exchange
+
+    controller brokertradeAgreement.broker can
+       AcceptExchangeTradeProposal
+        : ContractId BrokerTradeIssueAgreement
+        do create brokertradeAgreement
+
+template BrokerTradeIssueAgreement
+  with
+    broker: Party
+    exchange: Party
+    tradingLimit: Int
+    volumeLimit: Text
+    exchangeFee: Int
+    agreement_date: Date
+
+  where
+     signatory broker,exchange
+     controller exchange can
+    
+     

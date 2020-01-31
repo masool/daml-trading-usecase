@@ -1,0 +1,20 @@
+sdk-version: 0.12.22
+name: tectoro
+source: daml/DA/Tectoro/Main.daml
+parties:
+  - LIC_INDIA
+  - SHAREKHAN
+  - ZERODHA
+  - NSE
+  - BSE
+  - SEBI
+  - NARESH
+  - IRFAN
+version: 1.0.0
+exposed-modules:
+  - DA.Tectoro.Facts
+  - DA.Tectoro.C2BTrade
+  - DA.Tectoro.B2EAgree
+dependencies:
+  - daml-prim
+  - daml-stdlib
